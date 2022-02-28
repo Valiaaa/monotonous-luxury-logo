@@ -1,0 +1,40 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 20px;
+	font-family: gimlet-text, serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.column {
+	float: left;
+	padding: 10px;
+}
+  
+.left {
+	width: 60%;
+}
+  
+.right {
+	width: 40%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+}
+
+/*p{
+	margin-bottom: 2rem;
+}*/
