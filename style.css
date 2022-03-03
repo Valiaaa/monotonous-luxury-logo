@@ -104,13 +104,6 @@ a:link {
     border-bottom: 1.5px solid black;
     }
 
-/*@media screen and (max-width: 950px) and (min-width:600px) {
-	.right{
-		margin-left: 35%;
-	}
-
-}*/
-
 @media screen and (max-width: 500px) {
 	.left {
 		position: relative;
