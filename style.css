@@ -104,7 +104,7 @@ a:link {
     border-bottom: 1.5px solid black;
     }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 	.left {
 		position: relative;
 	}
@@ -122,5 +122,12 @@ a:link {
 		display:inline-block;
 		position:absolute;
 		margin-block-start: -1%;
+	}
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+	h1 {
+		font-size: 20px;
+		line-height: 22px;
 	}
 }
