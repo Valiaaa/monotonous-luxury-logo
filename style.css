@@ -26,7 +26,6 @@ h2{
 }
 
 
-
 h3{
 	line-height: 14px !important;
 	font-size: 12px;
@@ -45,6 +44,16 @@ h4{
 	margin-left: 8%;
 	margin-right: 8%;
 }
+
+h5{
+	line-height: 12px !important;
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	display: none;
+}
+
 
 br{
 	line-height: 0px;
@@ -66,6 +75,7 @@ a:link {
 	color: #707070;
   }
 
+
 .column {
 	float: left;
 	padding: 10px;
@@ -74,6 +84,7 @@ a:link {
 .left {
 	width: 20%;
 	position: fixed;
+	margin-left: 16px;
 }
   
 .right {
@@ -93,24 +104,30 @@ a:link {
     border-bottom: 1.5px solid black;
     }
 
-@media screen and (max-width: 950px) and (min-width:600px) {
+/*@media screen and (max-width: 950px) and (min-width:600px) {
 	.right{
 		margin-left: 35%;
 	}
 
-}
+}*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 	.left {
-		position: none;
+		position: relative;
 	}
 	.right {
 		margin-left: 0%;
 	}
 	.column {
-	  width: 100%;
+	  margin-left: 2.5%;
+	  width: 95%;
 	}
 	h2 {
-	display: none;
+	  display: none;
+	}
+	h5 {
+		display:inline-block;
+		position:absolute;
+		margin-block-start: -1%;
 	}
 }
