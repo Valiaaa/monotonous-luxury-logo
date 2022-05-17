@@ -4,11 +4,11 @@
 }
 
 body{
-	font-size: 20px;
+	font-size: 16px;
 	font-family: 'acumin-pro', sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	line-height: 28px;
+	line-height: 24px;
 }
 
 h1{
@@ -54,6 +54,10 @@ h5{
 	display: none;
 }
 
+.box{
+	width: 50%;
+	display: inline-block;
+}
 
 br{
 	line-height: 0px;
@@ -158,32 +162,72 @@ html {
   scroll-page {
 	display: flex;
   }
-
-
-  .container {
-	position: relative;
-	width:32vw;
-  }
   
   .image {
 	display: inline;
-	width: 32vw;
+	width: 50%;
 	height: auto;
-  }
-  
-  .overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .3s ease;
   }
   
   .container:hover .overlay {
 	opacity: 1;
   }
-  
+
+
+
+
+#ysl {
+	width: 49%;
+	height: 15vw;
+	background: url("assets/ysl1.png") no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+#ysl:hover {
+	background: url("assets/ysl2.png") no-repeat;
+	background-size: cover;
+	transition: .3s ease-in-out;
+}
+
+#balenciaga {
+	width: 49%;
+	height: 15vw;
+	background: url("assets/balenciaga1.png") no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 1%;
+}
+#balenciaga:hover {
+	background: url("assets/balenciaga2.png") no-repeat;
+	background-size: cover;
+	transition: .3s ease-in-out;
+}
+
+#burberry {
+	width: 49%;
+	height: 15vw;
+	background: url("assets/burberry1.png") no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin-top: 1%;
+}
+#burberry:hover {
+	background: url("assets/burberry2.png") no-repeat;
+	background-size: cover;
+	transition: .3s ease-in-out;
+}
+
+#balmain {
+	width: 49%;
+	height: 15vw;
+	background: url("assets/balmain1-01.png") no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+#balmain:hover {
+	background: url("assets/balmain2-01.png") no-repeat;
+	background-size: cover;
+	transition: .3s ease-in-out;
+}
